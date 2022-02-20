@@ -1,3 +1,3 @@
-# node-tozm2j
+# example-composite
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-tozm2j)
+* `git clone `
