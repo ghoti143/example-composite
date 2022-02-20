@@ -1,4 +1,5 @@
 import { BaseProperties, IBaseProperties } from './BaseProperties';
+import { payload } from './index';
 
 export interface IFooProperties extends FooProperties {}
 export class FooProperties {
@@ -6,7 +7,7 @@ export class FooProperties {
   propD: number;
   baseProperties: IBaseProperties;
 
-  constructor(data: any) {
+  constructor(data: payload) {
     this.propC = data.propC;
     this.propD = data.propD;
     this.baseProperties = new BaseProperties(data);
